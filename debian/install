@@ -1,0 +1,3 @@
+target/demoibmcloud-1.0-SNAPSHOT.jar	usr/src/demoibmcloud
+terraform/scripts/install.sh	usr/src/demoibmcloud
+terraform/scripts/start.sh		usr/src/demoibmcloud

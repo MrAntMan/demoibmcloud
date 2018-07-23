@@ -22,4 +22,9 @@ public class DemoApplication {
 	String welcome() {
 		return "Welcome to XlinkData from IBM Cloud deployment!\n";
 	}
+
+	@GetMapping("/hello")
+	String hello() {
+		return "Hello from XlinkData from IBM Cloud deployment!\n";
+	}
 }

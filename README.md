@@ -1,2 +1,2 @@
 # demoibmcloud
-demoibmcloud
+demoibmcloud xlinkdata

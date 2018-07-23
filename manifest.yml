@@ -1,10 +1,12 @@
----
+host: test-xlink-ibm-cloud
+domain: eu-gb.mybluemix.net
 applications:
 - instances: 1
   timeout: 180
   name: demoibmcloud
-  buildpack: java_buildpack
   path: ./target/demo-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  command: ""
   memory: 512M
-  domain: not-used.net
-  host: not-used
+  domain: eu-gb.mybluemix.net
+  host: test-xlink-ibm-cloud

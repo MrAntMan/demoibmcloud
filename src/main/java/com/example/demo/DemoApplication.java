@@ -17,4 +17,9 @@ public class DemoApplication {
 	String endpoint() {
 		return "Hello from IBM Cloud deployment!\n";
 	}
+
+	@GetMapping("/welcome")
+	String welcome() {
+		return "Welcome to XlinkData from IBM Cloud deployment!\n";
+	}
 }
